@@ -61,3 +61,4 @@ properties:
 
   dnsIP:
     description: IP address used for dns in place of /etc/resolv.conf
+    default: ''
