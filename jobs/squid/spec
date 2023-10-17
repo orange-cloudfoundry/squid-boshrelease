@@ -22,7 +22,7 @@ properties:
     default: 3128
 
   tls-cert:
-    description: TLS certificate + private key; when set, swith http_port to https_port.
+    description: TLS certificate + private key; when set, switch http_port to https_port.
     default: ''
   
   ssl-options:
@@ -30,7 +30,7 @@ properties:
     default: '' 
   
   cipher: 
-    description: Colon seprarated list of supported ciphers
+    description: Colon separated list of supported ciphers
     default: ''
 
   acl:
