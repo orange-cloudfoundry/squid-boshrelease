@@ -16,6 +16,7 @@ CXXFLAGS="$CFLAGS" \
 		--prefix "${BOSH_INSTALL_TARGET:?}" \
 		--disable-arch-native \
 		--disable-auto-locale \
+		--disable-esi \
 		--enable-async-io \
 		--enable-auth \
 		--enable-follow-x-forwarded-for \
